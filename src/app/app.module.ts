@@ -19,6 +19,7 @@ import {CoreModule} from "./core/core.module";
 import {SmartadminLayoutModule} from './shared/layout/layout.module';
 import {AuthenticationService} from './common/services/authentication.service';
 import {HttpService} from './common/services/http.service';
+import {SessionStorageService} from 'ngx-webstorage';
 
 // Application wide providers
 const APP_PROVIDERS = [
@@ -60,6 +61,7 @@ type StoreType = {
       APP_PROVIDERS,
       HttpService,
       AuthenticationService,
+    SessionStorageService,
   ]
 })
 export class AppModule {

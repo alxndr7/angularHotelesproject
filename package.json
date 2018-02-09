@@ -65,7 +65,7 @@
     "he": "1.1.1",
     "highcharts": "5.0.10",
     "ion-rangeslider": "2.1.7",
-    "jquery": "2.2.4",
+    "jquery": "^2.2.4",
     "jquery-color": "1.0.0",
     "jquery-jcrop": "0.9.13",
     "jquery-knob": "1.2.11",
@@ -93,7 +93,7 @@
   "devDependencies": {
     "@angular/cli": "1.6.5",
     "@angular/compiler-cli": "4.0.1",
-    "@types/jasmine": "^2.5.47",
+    "@types/jasmine": "^2.8.6",
     "@types/jquery": "2.0.41",
     "@types/node": "7.0.12",
     "codelyzer": "2.1.1",
